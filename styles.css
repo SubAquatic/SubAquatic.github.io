@@ -6,8 +6,6 @@
 
 body {
     background-image: url(imgs/background3.JPG);
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
     overflow: hidden;
     display: flex;
     margin: 0px;
@@ -24,15 +22,35 @@ body {
 #main-section {
     margin: 0px;
     padding: 0px;
-    height: 100vw;
+    height: 100vh;
     flex: 0.95;
     background-image: linear-gradient(to right, transparent, blue, blue, blue);
 }
 
+#info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #title-image {
-    position: absolute;
+    display: flex;
+    position: relative;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
-    /* right: 50vw; */
-    /* mix-blend-mode: multiply; */
+}
+
+#main-content {
+    /* margin-left: 20vw; */
+    color: white;
+    /* font-family: 'Brush Script MT', cursive; */
+    margin-top: 50vh;
+    margin-left: -20vw;
+    padding-top: 20px;
+    font-size: x-large;
+    text-shadow: #222;
+    text-align: center;
+    /* max-width: 30vw; */
+    display: flex;
+    flex-direction: row;
 }
