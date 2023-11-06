@@ -1,0 +1,38 @@
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -100% 0; }
+  }
+
+body {
+    background-image: url(imgs/background3.JPG);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    overflow: hidden;
+    display: flex;
+    margin: 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 180s linear alternate infinite;
+}
+
+#transparent-section {
+    margin: 0px;
+    flex: 0.05;
+}
+
+
+#main-section {
+    margin: 0px;
+    padding: 0px;
+    height: 100vw;
+    flex: 0.95;
+    background-image: linear-gradient(to right, transparent, blue, blue, blue);
+}
+
+#title-image {
+    position: absolute;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    /* right: 50vw; */
+    /* mix-blend-mode: multiply; */
+}
