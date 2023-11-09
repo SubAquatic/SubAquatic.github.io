@@ -85,7 +85,8 @@ body {
 
 #title-image {
     display: flex;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
 }
@@ -95,7 +96,7 @@ body {
     color: white;
     /* font-family: 'Brush Script MT', cursive; */
     margin-top: 50vh;
-    margin-left: -20vw;
+    /* margin-left: -20vw; */
     padding-top: 20px;
     font-size: x-large;
     text-shadow: #222;
