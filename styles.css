@@ -1,3 +1,8 @@
+:root {
+    --notification-color-1: #000000;
+    --notification-color-2: #ffffff;
+  }
+
 
 @keyframes animatedBackground {
     0% { background-position: 0 0; }
@@ -12,6 +17,51 @@ body {
     background-repeat: repeat-x;
     animation: animatedBackground 180s linear alternate infinite;
 }
+
+.notification-top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: var(--notification-color-1);
+    background-color: var(--notification-color-1);
+    text-align: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  .notification-top-bar p {
+    padding: 0;
+    margin: 0;
+  }
+  .notification-top-bar p a {
+    /* padding: 5px 10px; */
+    border-radius: 3px;
+    color: var(--notification-color-2);
+    /* font-weight: bold; */
+    text-decoration: none;
+  }
+
+  /* .notification-top-bar p a {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: var(--notification-color-2);
+    color: var(--notification-color-1);
+    font-weight: bold;
+    text-decoration: none;
+  } */
+
+  .notification-top-bar p a:hover {
+    /* padding: 5px 10px; */
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+    color: var(--notification-color-2);
+    font-weight: bold;
+    text-decoration: none;
+  }
 
 #transparent-section {
     margin: 0px;
