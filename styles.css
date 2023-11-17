@@ -142,7 +142,8 @@ body {
     padding: 0px;
     height: 100vh;
     flex: 0.95;
-    background-image: linear-gradient(to right, transparent, blue, blue, blue);
+    background-image: linear-gradient(to right, transparent, blue, rgb(0, 0, 194), rgb(0, 0, 137),  rgb(1, 1, 94));
+    background-size: cover;
 }
 
 #info-container {
