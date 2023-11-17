@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
 :root {
     --notification-color-1: #000000;
     --notification-color-2: #ffffff;
   }
-  @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+  html, body {
+    height:100%;
+} 
 
   * {
       margin: 0;
@@ -25,7 +30,7 @@
   
   .content h2 {
       color: #ffffff;
-      font-size: 8em;
+      font-size: 7vw;
       position: absolute;
       transform: translate(-50%, -50%);
   }
